@@ -1,5 +1,5 @@
 {
-  "version": "1.11.0-CE",
+  "version": "1.11.2-CE",
   "globalBitSize": 1,
   "clockSpeed": 16384,
   "circuits": [
@@ -39,22 +39,6 @@
           }
         },
         {
-          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
-          "x": 2,
-          "y": 3,
-          "properties": {
-            "Text": "Your Name"
-          }
-        },
-        {
-          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
-          "x": 2,
-          "y": 9,
-          "properties": {
-            "Text": "Your GTID"
-          }
-        },
-        {
           "name": "com.ra4king.circuitsim.gui.peers.wiring.ClockPeer",
           "x": 28,
           "y": 10,
@@ -62,22 +46,6 @@
             "Label location": "WEST",
             "Label": "CLOCK",
             "Direction": "EAST"
-          }
-        },
-        {
-          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
-          "x": 2,
-          "y": 6,
-          "properties": {
-            "Text": "Your GT Username"
-          }
-        },
-        {
-          "name": "com.ra4king.circuitsim.gui.peers.misc.Text",
-          "x": 2,
-          "y": 12,
-          "properties": {
-            "Text": "Your Section (A/B/C/GR)"
           }
         }
       ],
@@ -246,6 +214,7 @@
     "ZmM4MGE2NTZjM2JiMTNkNmY0ZjYzYTcwNzIyMTYzMDkwMGI4MzAxMTYxYjJjZmMxMGJkNWViMWJlZDIzZTU5Mwk0NGQ3ZmYwYmFmOTk1MDQwNmRkOTM1ODgwNDEwMzQzZDMyYmRkYThkN2Q1ODFmNjYyYzBiODMyMjBiZjQxYmY2CTE3MzY2MTg3ODMyODkJNDBlM2JjOTg3YTEzMDFjNzVlN2VkMTY3M2Y1NmU3YWMzZGM0YmZlMGIxNDYyNDZkODZkZjgxYjIyYjYwNTRjOA\u003d\u003d",
     "NDRkN2ZmMGJhZjk5NTA0MDZkZDkzNTg4MDQxMDM0M2QzMmJkZGE4ZDdkNTgxZjY2MmMwYjgzMjIwYmY0MWJmNgk3MGU2ODZiYjk3ZWMwYjBkY2I2OTM4YmVjNGNkMTEwNTljYjMzM2E1YzFkN2E4NWRhNzY3YzBkODQ4ZGZjZjU5CTE3Mzc4NjAzMDA4ODgJNGQ1MjI4ZGQ1YjQ3YzcxOTI5ZjdhZDBlMWU0NGQwMWM5ZGFjMDhlYjE4ZmFiNTI5NWYwMDc4Yjk2MmMwZWNhZA\u003d\u003d",
     "NzBlNjg2YmI5N2VjMGIwZGNiNjkzOGJlYzRjZDExMDU5Y2IzMzNhNWMxZDdhODVkYTc2N2MwZDg0OGRmY2Y1OQllNDIxYTkzMTRkNmFjZTYxZTJkYjFiZWE0OTYyN2I3ZjdkMDY2NzBhYWM3MzZhZTgzODQwYmQxZDYzZjFmNDYyCTE3NDE5OTgyNDU5NDkJMjAzYTU5Mjc1MDA3MWQ3ODFkY2Q4OTBiYTg2ZmY2MmMwZTYwODAyYjM4YzBlZWRlNTUwNGRlMTEzNDAwMGM4Ng\u003d\u003d",
-    "ZTQyMWE5MzE0ZDZhY2U2MWUyZGIxYmVhNDk2MjdiN2Y3ZDA2NjcwYWFjNzM2YWU4Mzg0MGJkMWQ2M2YxZjQ2Mgk4ZWNlMTg3ZDI4MTBhYTFiY2ZmMjA4ZTIxNjhkNWRmZTU1MDc1NWU0MWJkNTkzYTAxMzIxZmFmMTE3ZmRlYTc5CTE3NjEwNzc3NTk3ODEJNWM0YWUxYjE3YzM4YjBhYzM5YWQxMDA4ZjE1ODAzN2IzYzUxYjNhODJhMGE4YmE1MTkyMDc2YTljMzEwYTNiMQ\u003d\u003d"
+    "ZTQyMWE5MzE0ZDZhY2U2MWUyZGIxYmVhNDk2MjdiN2Y3ZDA2NjcwYWFjNzM2YWU4Mzg0MGJkMWQ2M2YxZjQ2Mgk4ZWNlMTg3ZDI4MTBhYTFiY2ZmMjA4ZTIxNjhkNWRmZTU1MDc1NWU0MWJkNTkzYTAxMzIxZmFmMTE3ZmRlYTc5CTE3NjEwNzc3NTk3ODEJNWM0YWUxYjE3YzM4YjBhYzM5YWQxMDA4ZjE1ODAzN2IzYzUxYjNhODJhMGE4YmE1MTkyMDc2YTljMzEwYTNiMQ\u003d\u003d",
+    "OGVjZTE4N2QyODEwYWExYmNmZjIwOGUyMTY4ZDVkZmU1NTA3NTVlNDFiZDU5M2EwMTMyMWZhZjExN2ZkZWE3OQljZjFiOTg3Mzg2ZmFlM2VlYzNjNTNjMmIwMTUwMTk3MmRjNDViNzJiOGI3N2JlYzk4YTI3NjJhZTk5ZTEzNjg2CTE3NjM2NzcyMTk3MDIJNDdmOGY2YmExYmM3MDJjYzNlZjhhOWVmNDUxYzQ0NDE1ZTEwNjlmOGQ1MTk4Y2JhMDIwNjUyZGM5ZmEyNzAyMQ\u003d\u003d"
   ]
 }
